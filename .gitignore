@@ -1,0 +1,27 @@
+# C++ build artifacts
+build/
+*.o
+*.a
+*.so
+
+# ROS2 colcon build artifacts
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Editor / IDE
+.vscode/
+.idea/
+.claude/settings.local.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Raw simulation output (keep charts, not raw per-run CSV clutter)
+cpp_controllers/build/results/
